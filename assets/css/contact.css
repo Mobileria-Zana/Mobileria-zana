@@ -17,7 +17,7 @@ h1{
 .kutijaKontaktuese{
     border: 1px solid gray;
     box-shadow: 8px 8px gainsboro;
-    width: 350px;
+    width: 450px;
     height: 520px;
     color: black;
     margin-left: 550px;
@@ -42,10 +42,10 @@ h1{
 @media screen and (max-width:600px){
     .kutijaKontaktuese{
         margin-left: 27px;
-        width: 400px;
+        width: 350px;
     }
     #mapav{
-        width: 350px;
+        width: 320px;
     }
     .tel{
         margin-left: -140px;
