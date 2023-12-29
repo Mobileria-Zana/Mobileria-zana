@@ -35,7 +35,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 #email{
-    margin-left: -23px;
+    margin-left: -18px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,10 +45,10 @@ h1{
     }
     .kutijaKontaktuese{
         margin-left: 27px;
-        width: 350px;
+        width: 250px;
     }
     #mapav{
-        width: 320px;
+        width: 220px;
     }
     .tel{
         margin-left: -140px;
@@ -59,7 +59,7 @@ h1{
         font-size: 15px;
     }
     #email{
-        margin-left: -80px;
+        margin-left: -78px;
         font-size: 15px;
     }
     .titulli{
