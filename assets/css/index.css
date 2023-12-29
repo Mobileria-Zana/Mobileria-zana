@@ -134,7 +134,7 @@ section p {
 .partneret{
     margin-left: -15px;
 }
-/* @media screen and (max-width:600px){
+@media screen and (max-width:600px){
     body{
         overflow-x: none;
     }
@@ -166,7 +166,7 @@ section p {
     #row{
         border: 1px solid white;
         height: auto;
-        padding-left: 0;
+        margin-left: 20px;
     }
     #produkti1{
         margin-left: 0px;
@@ -188,4 +188,4 @@ section p {
     .listaPartnerit{
         margin-left: -505px;
     }
-} */
+}
