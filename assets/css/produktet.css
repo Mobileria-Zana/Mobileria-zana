@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+    background: url("../img/mobilieri1.webp");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 450px;
+}
+.header{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    margin-top: 7%;
+    color: white;
+    font-size: 300%;
+}
+#row{
+    border: 2px solid white;
+    height: 350px;
+    width: 95%;
+    margin-left: 15px;
+}
+#produkti1{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.foto1{
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 110px;
+    margin-left: 70px;
+}
+#produkti1:hover{
+    background-color: #efe7da;
+}
+.sofa{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #b29079;
+}
+.cmimi{
+    text-align: center;
+    font-size: 19px;
+    color: #b29079;
+}
+.blej{
+    width: 100px;
+    text-align: center;
+    margin-left: 70px;
+    background-color: transparent;
+    color: burlywood;
+    border: 2px solid #b29079;
+}
+.blej:hover{
+    background-color: #b29079;
+}
+
+#produkti2{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 320px;
+    line-break: normal;
+}
+#produkti2:hover{
+    background-color: #efe7da;
+}
+#produkti3{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 620px;
+    
+}
+#produkti3:hover{
+    background-color: #efe7da;
+}
+#produkti4{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 920px;
+    
+}
+#produkti4:hover{
+    background-color: #efe7da;
+}
+#produkti5{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1220px;
+    
+}
+#produkti5:hover{
+    background-color: #efe7da;
+}
+@media screen and (max-width:600px){
+    #navbar{
+        width: 100%;
+    }
+    .text1{
+        margin-top: 35px;
+    }
+    #row{
+        border: 1px solid white;
+        height: auto;
+        padding-left: 70px;
+    }
+    #produkti1{
+        margin-left: 0px;
+    }
+    #produkti2{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    #produkti3{
+        margin-top: 50px;
+        margin-left: 0px;
+    } #produkti4{
+        margin-top: 50px;
+        margin-left: 0px;
+    } #produkti5{
+        margin-top: 50px;
+        margin-left: 0px;
+    }.infopldh{
+        font-size: 13px;
+    }
+    .partneret{
+        margin-top: 250px;
+        margin-left: -520px;
+    }
+    .listaPartnerit{
+        margin-left: -505px;
+    }
+}

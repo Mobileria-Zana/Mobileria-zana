@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+}
+.footer{
+    position: absolute;
+}
+.foto1{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+.emrriifotos{
+    margin-left: 350px;
+    margin-top: -250px;
+
+}
+.description{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    width: 300px;
+    height: 150px;
+    margin-left: 350px;
+}
+.div1{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.div2{
+    margin-left: 70%;
+    margin-top: 50px; 
+}
+.foto2{
+    width: 300px;
+    height: 250px;
+}
+.emrriifotos2{
+    margin-left:-350px;
+    margin-top: -250px;
+    
+}
+.description2{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    width: 300px;
+    height: 150px;
+    margin-left: -350px;
+}
+.hr{
+    width: 90%;
+    color: black;
+    background-color: black;
+    border: 1px solid #b29079;
+}
+@media screen and (max-width:600px){
+    .div1{
+        border: 1px solid white;
+        margin-left: -0px;
+        padding-left: 10px;
+    }
+    .foto1{
+        width: 180px;
+        height: 150px;
+    }
+    .description{
+        font-size: 12px;
+        border: 1px solid white;
+        margin-left: 200px;
+        width: 250px;
+    }
+    .emrriifotos{
+        font-size: 19px;
+        margin-left:198px;
+        margin-top: -200px;
+    }
+}

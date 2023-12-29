@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+    /* color: blueviolet; */
+    background: url("../img/background_photo.jpg")  ; /* Update this line */
+    background-size: cover; /* Update this line */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+    height: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    margin-top: 20%;
+    color: white;
+    font-size: 300%;
+}
+section {
+    text-align: center; /* Center the content in the section */
+    padding: 50px; /* Add some padding for better readability */
+}
+
+/* Other styles for the section, adjust as needed */
+section h1 {
+    color: #333; /* Change the color of the heading */
+}
+
+section img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto;
+}
+
+section p {
+    margin-bottom: 20px; /* Add some space between paragraphs */
+}
+.spacer {
+    height: 550px; /* Adjust the height as needed */
+}
+.section1{
+    margin-top: 450px;
+}
+
+
+
+
+/*Produktet*/
+#row{
+    border: 2px solid white;
+    height: 350px;
+    width: 95%;
+    margin-left: 35px;
+}
+#produkti1{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 270px;
+    
+}
+.foto1{
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 110px;
+    margin-left: 70px;
+    margin-left: 0px;
+}
+#produkti1:hover{
+    background-color: #efe7da;
+}
+.sofa{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #b29079;
+}
+.cmimi{
+    text-align: center;
+    font-size: 19px;
+    color: #b29079;
+}
+.blej{
+    width: 100px;
+    text-align: center;
+    margin-left: 70px;
+    background-color: transparent;
+    color: burlywood;
+    border: 2px solid #b29079;
+}
+.blej:hover{
+    background-color: #b29079;
+}
+
+#produkti2{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 570px;
+    
+}
+#produkti2:hover{
+    background-color: #efe7da;
+}
+#produkti3{
+    cursor: pointer;
+    border: 2px solid #b29079;
+    width: 250px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 900px;
+    
+}
+.meShume{
+    margin-top: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: transparent;
+    color: burlywood;
+    border: 2px solid #b29079;
+}
+.meShume:hover{
+    background-color: #b29079;
+}
+#produkti3:hover{
+    background-color: #efe7da;
+}
+.partneret{
+    margin-left: -15px;
+}
+@media screen and (max-width:600px){
+    .weblogo{
+        width: 155px;
+        line-break: normal;
+    }
+    .tituli1{
+        font-size: 40px;
+    }
+    .tituli2{
+        font-size: 40px;
+    }
+    .meShume{
+        margin-top: 25px;
+        width: 100px;
+        text-align: center;
+        margin-left: -45px;
+        background-color: transparent;
+        color: burlywood;
+        border: 2px solid #b29079;
+    }
+    .meShume:hover{
+        background-color: #b29079;
+    }
+    .text1{
+        margin-top: 35px;
+    }
+    #row{
+        border: 1px solid white;
+        height: auto;
+        padding-left: 25px;
+    }
+    #produkti1{
+        margin-left: 0px;
+    }
+    #produkti2{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    #produkti3{
+        margin-top: 50px;
+        margin-left: 0px;
+    }.infopldh{
+        font-size: 13px;
+    }
+    .partneret{
+        margin-top: 250px;
+        margin-left: -520px;
+    }
+    .listaPartnerit{
+        margin-left: -505px;
+    }
+}
