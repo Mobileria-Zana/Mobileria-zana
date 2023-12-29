@@ -40,6 +40,9 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width:600px){
+    body{
+        overflow-x: none;
+    }
     .kutijaKontaktuese{
         margin-left: 27px;
         width: 350px;
@@ -49,11 +52,18 @@ h1{
     }
     .tel{
         margin-left: -140px;
+        font-size: 15px;
     }
     .adresa{
-        margin-left: -5px;
+        margin-left: -40px;
+        font-size: 15px;
     }
     #email{
-        margin-left: -55px;
+        margin-left: -80px;
+        font-size: 15px;
+    }
+    .titulli{
+        font-size: 20px;
+        float: left;
     }
 }
