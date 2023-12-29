@@ -135,6 +135,9 @@ section p {
     margin-left: -15px;
 }
 @media screen and (max-width:600px){
+    body{
+        overflow-x: none;
+    }
     .weblogo{
         width: 155px;
         line-break: normal;
