@@ -140,6 +140,9 @@ body{
         font-size: 13px;
     }
     #subscribe{
-        margin-left: 100;
+        margin-left: 0;
+    }
+    .borderii{
+        width: 140px;
     }
 }
