@@ -136,7 +136,7 @@ section p {
 }
 @media screen and (max-width:600px){
     body{
-        overflow-x: none;
+        overflow-x: hidden;
     }
     .weblogo{
         width: 155px;
